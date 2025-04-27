@@ -1,12 +1,17 @@
-# React + Vite
+## Counter React App 3mtt-mini-project
+    This project is one of the requirement to complete my software development programme module two.
+## Tech stack 
+    React.js
+## Features 
+    The web app is a counter app that counts from 0 to 100.
+    It has three buttons; the button with the "+" is use to increase the count while the other with "-" is use to decrease the count and the third button is the reset button that reset the app to start counting from zero.
+    It also displays an alert message that tells the user when when they've gotten to the limit.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## How to set up the project
+    1. create a new folder on your local machine or craete a new repository that will contain the project content.
+    2. open the folder in your IDE e.g vs code or clone the repository using the command 'git clone "repositoiry address" '.
+    3. install react using vite or any other bundler but i recommend vite use the command "create vite@latest" choose your project name then select react.js from the options of packages.
+    4. Then Install all dependencies using the command "npm install.
+    5. npm dev if you using vite or npm start to view your project on the browser.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    Then you go to go.

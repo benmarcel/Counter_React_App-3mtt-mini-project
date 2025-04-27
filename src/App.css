@@ -12,20 +12,21 @@
   justify-content: center;
   align-items: center;
   
+  
 }
 .card{
   max-width: 500px;
   max-height: 60vh ;
   height: 700px;
   width: 50%;
-  background-color: rgb(249, 250, 252);
+  background-color: rgba(177, 174, 174, 0.555);
   padding: 10px;
   border-radius: .6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 .counter-div{
   background: linear-gradient(135deg, #cf6, #ffcc66 );
@@ -37,6 +38,7 @@
   align-items: center;
   font-weight: bold;
   font-size: 2.5rem;
+  border-radius: .7rem;
 
 }
 
@@ -45,11 +47,44 @@
 display: flex;
 align-items: center;
 justify-content: center;
-gap: 10px;
+gap: 15px;
+margin-bottom: 10px;
 }
 .btn-div button{
   border: none;
-  border-radius: .7rem;
-  font-size: 1.5rem;
-  font-weight: 4rem;
+  border-radius: .2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0px 10px;
+  text-align: center;
+}
+.reset{
+  border: none;
+  border-radius: .2rem;
+  font-size: 1rem;
+ text-align: center;
+  padding: 5px 10px;
+}
+
+.msg{
+  background: transparent;
+  color: red;
+  text-align: center;
+}
+
+@media  screen and (width < 500px) {
+  .card{
+    max-width: 500px;
+    max-height: 60vh ;
+    height: 700px;
+    width: 90%;
+    background-color: rgba(177, 174, 174, 0.555);
+    padding: 10px;
+    border-radius: .6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
 }

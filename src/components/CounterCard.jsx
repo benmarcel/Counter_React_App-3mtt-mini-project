@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CounterCard = ({count, handleIncrease, handleDecrease}) => {
+const CounterCard = ({count, handleIncrease, handleDecrease, reset}) => {
   return (
     <div className='card'>
         
@@ -9,7 +9,7 @@ const CounterCard = ({count, handleIncrease, handleDecrease}) => {
        <button onClick={handleIncrease} className='increase-btn'>+</button>
        <button onClick={handleDecrease} className='decrease-btn'>-</button>
        </div>
-        
+        <button type="button" onClick={reset} className='reset'>Reset</button>
     </div>
   )
 }
